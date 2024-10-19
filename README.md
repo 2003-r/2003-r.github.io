@@ -108,8 +108,18 @@ Separate test files were created to handle valid and invalid search cases:
   searchvalidinput.spec.ts: Verifies the application's handling of valid search queries.
   This project demonstrates my proficiency in using Playwright for end-to-end testing, employing the Page Object Model to maintain clean, reusable, and modular test code. It also showcases my ability to automate UI testing and ensure the reliability of web applications.
 
-
- ### Project 5 - Advanced Calculator
+### Project 5 - API-Weather-app
+ - https://github.com/2003-r/API-Weather-app.git
+ - Project Title: Weather App RESTful API
+ - Description:
+   this Web Api was implemented using Nodejs and mongodb
+  This API provides weather data for specific cities, including:
+    Current Weather: Retrieves the current weather conditions for a city.
+    Forecast Weather: Provides weather forecasts for a city.
+    Historical Weather: Fetches historical weather data for a city based on city ID, start, and end dates.
+    
+  The API implements basic authentication , allowing users to register and log in. Weather data is cached for 5 minutes to improve performance, and error handling is in place for invalid city requests. The API was thoroughly tested using Postman, and endpoints return JSON data with appropriate status codes (e.g., 200 for success, 400 for bad requests).
+  ### Project 6 - Advanced Calculator
   - Project Title: Advanced Calculator with Memory and Error Handling
   - https://github.com/2003-r/Advanced-Calculator.git
   - Description:
